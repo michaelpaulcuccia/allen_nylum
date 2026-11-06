@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
+import Header from "@/components/Header";
 import PageWrapper from "@/components/PageWrapper";
 import "./globals.css";
 
@@ -12,6 +13,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body>
+        <Header />
         <PageWrapper>{children}</PageWrapper>
       </body>
     </html>
