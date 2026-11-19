@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useRef } from "react";
 import CountryDropDown from "./CountryDropDown";
 
@@ -32,7 +33,7 @@ export default function Header() {
       <header className="w-full border-b border-gray-200 bg-white text-gray-950">
         <nav
           aria-label="Main navigation"
-          className="mx-auto grid min-h-20 max-w-7xl grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-2 px-4 sm:px-6 md:flex md:justify-between lg:px-8"
+          className="mx-auto grid min-h-20 max-w-7xl grid-cols-[minmax(0,1fr)_minmax(0,185px)_minmax(0,1fr)] items-center gap-2 px-4 py-3 sm:px-6 md:flex md:justify-between md:gap-6 lg:px-8"
         >
           {/* Mobile hamburger */}
           <button
@@ -55,30 +56,30 @@ export default function Header() {
             </svg>
           </button>
 
-          {/* Brand icon */}
+          {/* Responsive brand logo */}
           <Link
             href="/"
             aria-label="Home"
-            className="inline-flex size-11 shrink-0 items-center justify-center rounded-md"
+            className="inline-flex min-h-11 w-full min-w-0 max-w-[185px] items-center justify-center justify-self-center rounded-md md:shrink"
           >
-            <svg
-              viewBox="0 0 32 32"
-              fill="currentColor"
-              className="size-8"
-              aria-hidden="true"
-            >
-              <path d="M16 2 30 16 16 30 2 16Z" />
-            </svg>
+            <Image
+              src="/logo.svg"
+              alt=""
+              width={185}
+              height={52}
+              className="block h-auto max-h-[52px] w-full max-w-[185px] object-contain"
+              loading="eager"
+            />
           </Link>
 
-          {/* Desktop links and shared city selector */}
-          <div className="flex min-w-0 items-center justify-end gap-8">
-            <div className="hidden items-center gap-8 md:flex">
+          {/* Desktop links and country selector */}
+          <div className="flex min-w-0 items-center justify-end justify-self-end gap-4 md:shrink-0 lg:gap-8">
+            <div className="hidden items-center gap-4 md:flex lg:gap-8">
               {links.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-sm font-medium hover:underline"
+                  className="whitespace-nowrap text-sm font-medium hover:underline"
                 >
                   {link.label}
                 </Link>

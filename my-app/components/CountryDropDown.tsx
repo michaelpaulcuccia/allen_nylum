@@ -1,8 +1,6 @@
 "use client";
 
 import { useEffect, useId, useRef, useState } from "react";
-//import languageData from "@/data/languages.json";
-//import languageData from "../app/data/languages.json";
 import languageData from "@/app/data/languages.json";
 
 type CountryOption = (typeof languageData.options)[number];
