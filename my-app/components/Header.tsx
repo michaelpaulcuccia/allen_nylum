@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef } from "react";
-import CityDropdown from "./CityDropdown";
+import CountryDropDown from "./CountryDropDown";
 
 const links = [
   { label: "Home", href: "/" },
@@ -85,7 +85,7 @@ export default function Header() {
               ))}
             </div>
 
-            <CityDropdown />
+            <CountryDropDown />
           </div>
         </nav>
       </header>

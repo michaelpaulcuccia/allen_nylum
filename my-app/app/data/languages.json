@@ -1,109 +1,122 @@
 {
-  "countryCode": "IT",
-  "countryName": "Italy",
-  "locale": "it-IT",
-  "languageName": "Italian",
-  "nativeName": "italiano",
-  "flag": "🇮🇹",
-  "direction": "ltr"
+  "defaultLocale": "en-US",
+  "options": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "locale": "en-US",
+      "languageName": "English",
+      "nativeName": "English",
+      "flag": "🇺🇸",
+      "direction": "ltr"
+    },
+    {
+      "countryCode": "IT",
+      "countryName": "Italy",
+      "locale": "it-IT",
+      "languageName": "Italian",
+      "nativeName": "italiano",
+      "flag": "🇮🇹",
+      "direction": "ltr"
+    },
+    {
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "locale": "en-CA",
+      "languageName": "English",
+      "nativeName": "English",
+      "flag": "🇨🇦",
+      "direction": "ltr"
+    },
+    {
+      "countryCode": "MX",
+      "countryName": "Mexico",
+      "locale": "es-MX",
+      "languageName": "Spanish",
+      "nativeName": "español",
+      "flag": "🇲🇽",
+      "direction": "ltr"
+    },
+    {
+      "countryCode": "PT",
+      "countryName": "Portugal",
+      "locale": "pt-PT",
+      "languageName": "Portuguese",
+      "nativeName": "português",
+      "flag": "🇵🇹",
+      "direction": "ltr"
+    },
+    {
+      "countryCode": "SE",
+      "countryName": "Sweden",
+      "locale": "sv-SE",
+      "languageName": "Swedish",
+      "nativeName": "svenska",
+      "flag": "🇸🇪",
+      "direction": "ltr"
+    },
+    {
+      "countryCode": "NO",
+      "countryName": "Norway",
+      "locale": "nb-NO",
+      "languageName": "Norwegian Bokmål",
+      "nativeName": "norsk bokmål",
+      "flag": "🇳🇴",
+      "direction": "ltr"
+    },
+    {
+      "countryCode": "DK",
+      "countryName": "Denmark",
+      "locale": "da-DK",
+      "languageName": "Danish",
+      "nativeName": "dansk",
+      "flag": "🇩🇰",
+      "direction": "ltr"
+    },
+    {
+      "countryCode": "FI",
+      "countryName": "Finland",
+      "locale": "fi-FI",
+      "languageName": "Finnish",
+      "nativeName": "suomi",
+      "flag": "🇫🇮",
+      "direction": "ltr"
+    },
+    {
+      "countryCode": "PL",
+      "countryName": "Poland",
+      "locale": "pl-PL",
+      "languageName": "Polish",
+      "nativeName": "polski",
+      "flag": "🇵🇱",
+      "direction": "ltr"
+    },
+    {
+      "countryCode": "TR",
+      "countryName": "Türkiye",
+      "locale": "tr-TR",
+      "languageName": "Turkish",
+      "nativeName": "Türkçe",
+      "flag": "🇹🇷",
+      "direction": "ltr"
+    },
+    {
+      "countryCode": "TH",
+      "countryName": "Thailand",
+      "locale": "th-TH",
+      "languageName": "Thai",
+      "nativeName": "ไทย",
+      "flag": "🇹🇭",
+      "direction": "ltr"
+    },
+    {
+      "countryCode": "VN",
+      "countryName": "Vietnam",
+      "locale": "vi-VN",
+      "languageName": "Vietnamese",
+      "nativeName": "Tiếng Việt",
+      "flag": "🇻🇳",
+      "direction": "ltr"
+    }
+  ]
 }
-{
-  "countryCode": "CA",
-  "countryName": "Canada",
-  "locale": "en-CA",
-  "languageName": "English",
-  "nativeName": "English",
-  "flag": "🇨🇦",
-  "direction": "ltr"
-},
-{
-  "countryCode": "MX",
-  "countryName": "Mexico",
-  "locale": "es-MX",
-  "languageName": "Spanish",
-  "nativeName": "español",
-  "flag": "🇲🇽",
-  "direction": "ltr"
-},
-{
-  "countryCode": "PT",
-  "countryName": "Portugal",
-  "locale": "pt-PT",
-  "languageName": "Portuguese",
-  "nativeName": "português",
-  "flag": "🇵🇹",
-  "direction": "ltr"
-},
-{
-  "countryCode": "SE",
-  "countryName": "Sweden",
-  "locale": "sv-SE",
-  "languageName": "Swedish",
-  "nativeName": "svenska",
-  "flag": "🇸🇪",
-  "direction": "ltr"
-},
-{
-  "countryCode": "NO",
-  "countryName": "Norway",
-  "locale": "nb-NO",
-  "languageName": "Norwegian Bokmål",
-  "nativeName": "norsk bokmål",
-  "flag": "🇳🇴",
-  "direction": "ltr"
-},
-{
-  "countryCode": "DK",
-  "countryName": "Denmark",
-  "locale": "da-DK",
-  "languageName": "Danish",
-  "nativeName": "dansk",
-  "flag": "🇩🇰",
-  "direction": "ltr"
-},
-{
-  "countryCode": "FI",
-  "countryName": "Finland",
-  "locale": "fi-FI",
-  "languageName": "Finnish",
-  "nativeName": "suomi",
-  "flag": "🇫🇮",
-  "direction": "ltr"
-},
-{
-  "countryCode": "PL",
-  "countryName": "Poland",
-  "locale": "pl-PL",
-  "languageName": "Polish",
-  "nativeName": "polski",
-  "flag": "🇵🇱",
-  "direction": "ltr"
-},
-{
-  "countryCode": "TR",
-  "countryName": "Türkiye",
-  "locale": "tr-TR",
-  "languageName": "Turkish",
-  "nativeName": "Türkçe",
-  "flag": "🇹🇷",
-  "direction": "ltr"
-},
-{
-  "countryCode": "TH",
-  "countryName": "Thailand",
-  "locale": "th-TH",
-  "languageName": "Thai",
-  "nativeName": "ไทย",
-  "flag": "🇹🇭",
-  "direction": "ltr"
-},
-{
-  "countryCode": "VN",
-  "countryName": "Vietnam",
-  "locale": "vi-VN",
-  "languageName": "Vietnamese",
-  "nativeName": "Tiếng Việt",
-  "flag": "🇻🇳",
-  "direction": "ltr"
-}
-
